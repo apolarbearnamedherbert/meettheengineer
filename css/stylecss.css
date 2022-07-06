@@ -1,8 +1,47 @@
+body{
+	font-family: "Verdana", "Arial", "sans-serif";
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
 header{
 	text-align: center;
 	margin-left:  auto;
 	margin-right: auto;
+	background-color: #ffdc57;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
+
+header img{
+	border-radius: 50px;
+}
+
+header h1{
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 60px;
+}
+
+header p{
+	font-family: "Verdana", "Arial", "sans-serif";
+}
+
+.engiheader{
+	width: 250px;
+	border: 8px solid #ea7e05;
+}
+
+main{
+	max-width: 900px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: "Verdana Bold", "Verdana", "sans-serif";
+	font-size: 30px;
+}
+
 blockquote{
 	text-align: center;
 }
@@ -11,4 +50,9 @@ blockquote{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.about{
+	padding-left: 20px;
+	padding-right: 20px;
 }

@@ -3,6 +3,9 @@
 <head>
 	<title>Meet the Engineer</title>
 	<link rel="stylesheet" type="text/css" href="css/stylecss.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
 	<link rel="icon" href="https://wiki.teamfortress.com/w/images/c/cf/Engineer_emblem_RED.png">
 </head>
 
@@ -10,14 +13,15 @@
 	<div id="header">
 		<!-- This section is going to include an image of Engineer from "Meet the Engineer," a header with the title "Meet the Engineer," an image of Engi's patch, and some kind of quirky slogan about him. According to the stylesheet, all of this should be centered.-->
 	<header>
-		<img src="img/engiguitar.jpg" height="125" width="250" title="The man himself.">
+		<img class="engiheader" src="img/engiguitar.jpg" height="125" width="250" title="The man himself.">
 		<h1>Meet the Engineer</h1>
-		<img src="img/engiemblem.jpg" height="50" width="50" title="Engineer's symbol is the mighty wrench.">
+		<img src="img/engiemblem.jpg" height="100" width="100" title="Engineer's symbol is the mighty wrench.">
 		<p>"I like to make things."</p>
 	</header>
 	<br>
 	</div>
-	<div id="About">
+	<main>
+	<div id="About" style="border: 3px solid indianred; padding-left: 20px;">
 		<!-- This section is going to include THE quote from "Meet the Engineer" in a blockquote and a paragraph element describing him. The blockquote text is centered and broken into separate lines to make reading the quote more natural. I'd like to have some sort of color around this box distinguishing it from the elements around it. -->
 		<h2>About</h2>
 		<blockquote>
@@ -29,7 +33,7 @@
 		<p>The Engineer is a fine Southern gentleman from Texas who is as dangerous as he is amiable. Don't be fooled by his friendly smile or his soothing guitar: the man is a stone-cold killer. His area of expertise is building machines that support his teammates. The result? Complete area denial.</p>
 	</div>
 	<br>
-	<div id="abilities">
+	<div id="abilities" style="border: 3px solid indianred; padding-left: 20px;">
 		<!-- This section lists out all of Engineer's capabilities in an unordered list. I had to remember that you declare the unordered list and then individually code in each list item.
 
 		My intention is to include some h3 elements, images, and a brief paragraph element description for each. Hopefully this goes as I imagine it in my head. -->
@@ -50,7 +54,7 @@
 			</ul>
 	</div>
 	<br>
-	<div id="comics">
+	<div id="comics" style="border: 3px solid indianred; padding-left: 20px;">
 		<!-- This section will include an image of Engi from the comics, a caption, and then a description of his plotline. I want the image and caption centered and the last description aligning on the left.
 
 			In order to center the image, I had to create a class called "center" and then follow up in the stylesheet with auto margins and the display style of "block," whatever that means.
@@ -67,5 +71,6 @@
 				<a href="https://www.teamfortress.com/gargoyles_and_gravel/#">Gargoyles and Gravel,</a> and 
 				<a href="https://www.teamfortress.com/shadowboxers/">Shadow Boxers.</a></p>
 	</div>
+</main>
 </body>
 </html>
